@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Management;
 
 namespace crm.Controllers
 {
@@ -55,6 +56,18 @@ namespace crm.Controllers
 
                 return Ok(item);
             }
+        }
+
+        [HttpGet("/GetSerialNo")]
+        public string GetSerial(){
+            ManagementClass mangnmt = new ManagementClass("Win32_LogicalDisk");
+            ManagementObjectCollection mcol = mangnmt.GetInstances();
+            string result = "";
+            foreach (ManagementObject strt in mcol)
+            {
+                result += Convert.ToString(strt["VolumeSerialNumber"]);
+            }
+            return result;
         }
     }
 }
