@@ -43,5 +43,11 @@ namespace crm.Controllers
         {
             return context.customers.Include(c => c.payments).ToList();
         }
+
+        [HttpGet("{id}")]
+        public ActionResult<Customer> Customer(long id)
+        {
+            return context.customers.Include(c => c.payments).Where(w => w.Id == id).First();
+        }
     }
 }
