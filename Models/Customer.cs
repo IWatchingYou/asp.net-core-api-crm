@@ -16,6 +16,8 @@ namespace crm.Models
         public string Token {get; set;}
         public DateTime Created_At {get; set;}
 
+        public bool Active {get; set;}
+
         public ICollection<Payment> payments {get; set;}
     }
 }

@@ -12,3 +12,17 @@
 /home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.RazorTargetAssemblyInfo.cache
 /home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.dll
 /home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.pdb
+E:\project\c_sharp\asp.net-core-api-crm\bin\Debug\netcoreapp2.2\crm.deps.json
+E:\project\c_sharp\asp.net-core-api-crm\bin\Debug\netcoreapp2.2\crm.runtimeconfig.json
+E:\project\c_sharp\asp.net-core-api-crm\bin\Debug\netcoreapp2.2\crm.runtimeconfig.dev.json
+e:\project\c_sharp\asp.net-core-api-crm\bin\Debug\netcoreapp2.2\crm.dll
+e:\project\c_sharp\asp.net-core-api-crm\bin\Debug\netcoreapp2.2\crm.pdb
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.csprojAssemblyReference.cache
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.csproj.CoreCompileInputs.cache
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.RazorAssemblyInfo.cache
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.RazorAssemblyInfo.cs
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.AssemblyInfoInputs.cache
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.AssemblyInfo.cs
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.RazorTargetAssemblyInfo.cache
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.dll
+e:\project\c_sharp\asp.net-core-api-crm\obj\Debug\netcoreapp2.2\crm.pdb

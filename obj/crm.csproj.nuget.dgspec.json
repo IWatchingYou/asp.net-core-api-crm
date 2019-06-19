@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/dedsec/Project/Asp/crm/crm.csproj": {}
+    "E:\\project\\c_sharp\\asp.net-core-api-crm\\crm.csproj": {}
   },
   "projects": {
-    "/home/dedsec/Project/Asp/crm/crm.csproj": {
+    "E:\\project\\c_sharp\\asp.net-core-api-crm\\crm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dedsec/Project/Asp/crm/crm.csproj",
+        "projectUniqueName": "E:\\project\\c_sharp\\asp.net-core-api-crm\\crm.csproj",
         "projectName": "crm",
-        "projectPath": "/home/dedsec/Project/Asp/crm/crm.csproj",
-        "packagesPath": "/home/dedsec/.nuget/packages/",
-        "outputPath": "/home/dedsec/Project/Asp/crm/obj/",
+        "projectPath": "E:\\project\\c_sharp\\asp.net-core-api-crm\\crm.csproj",
+        "packagesPath": "C:\\Users\\Document\\.nuget\\packages\\",
+        "outputPath": "E:\\project\\c_sharp\\asp.net-core-api-crm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/dedsec/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Document\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
