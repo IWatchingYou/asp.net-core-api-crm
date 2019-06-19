@@ -1,0 +1,14 @@
+/home/dedsec/Project/Asp/crm/bin/Debug/netcoreapp2.2/crm.deps.json
+/home/dedsec/Project/Asp/crm/bin/Debug/netcoreapp2.2/crm.runtimeconfig.json
+/home/dedsec/Project/Asp/crm/bin/Debug/netcoreapp2.2/crm.runtimeconfig.dev.json
+/home/dedsec/Project/Asp/crm/bin/Debug/netcoreapp2.2/crm.dll
+/home/dedsec/Project/Asp/crm/bin/Debug/netcoreapp2.2/crm.pdb
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.csprojAssemblyReference.cache
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.csproj.CoreCompileInputs.cache
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.RazorAssemblyInfo.cache
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.RazorAssemblyInfo.cs
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.AssemblyInfoInputs.cache
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.AssemblyInfo.cs
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.RazorTargetAssemblyInfo.cache
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.dll
+/home/dedsec/Project/Asp/crm/obj/Debug/netcoreapp2.2/crm.pdb
