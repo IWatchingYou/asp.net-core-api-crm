@@ -8,5 +8,6 @@ namespace crm.Models
         protected override void OnModelCreating(ModelBuilder builder){}
         public DbSet<Customer> customers {get; set;}
         public DbSet<Payment> payments {get; set;}
+        public DbSet<TokenAccess> TokenAccesss {get; set;}
     }
 }

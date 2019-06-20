@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using crm.Models;
@@ -9,9 +10,10 @@ using crm.Models;
 namespace crm.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    partial class DatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20190620144216_initialFour")]
+    partial class initialFour
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -69,39 +71,11 @@ namespace crm.Migrations
                     b.ToTable("payments");
                 });
 
-            modelBuilder.Entity("crm.Models.TokenAccess", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("Created_At");
-
-                    b.Property<string>("Key");
-
-                    b.Property<long>("PaymentId");
-
-                    b.Property<string>("SerialNumber");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PaymentId");
-
-                    b.ToTable("TokenAccesss");
-                });
-
             modelBuilder.Entity("crm.Models.Payment", b =>
                 {
                     b.HasOne("crm.Models.Customer")
                         .WithMany("payments")
                         .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("crm.Models.TokenAccess", b =>
-                {
-                    b.HasOne("crm.Models.Payment")
-                        .WithMany("TokenAccess")
-                        .HasForeignKey("PaymentId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
